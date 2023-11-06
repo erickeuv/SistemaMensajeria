@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.text-xs {
+    font-size: 0.6rem;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 2.8rem;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    font-family: "Roboto Bold";
+    
+
+  
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
+
+
+.ProfileInformation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   border: 1px solid #E8EBE4;
+   
+   
+   
+   
+}
+
+.UserInformation{
+    display: flex;
+    flex-direction: column;
+margin-right: 50%;
+  
+  
+   
+  
+}
+
+.Information{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+.ProfilePic{
+    width:50px;
+    height: auto;
+    border-radius: 50%;
+
+}
+.DisplayPic{
+    width:50px;
+    height: auto;
+    border-radius: 50%;
+    margin: 4%;
+}
+
+.NewChat{
+
+   text-align: center;
+   border: 1px solid #E8EBE4;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   
+ 
+ 
+}
+
+.Chat{
+    background-color: #A491D2;
+   margin-left: 25%;
+   margin-right: 25%;
+   padding: 4%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   color: white;
+}
+
+.PrivateChat{
+    display: flex;
+    flex-direction: row;
+   
+    border: 1px solid #E8EBE4;
+
+}
+
+
+
+.Logo{
+    width: 300px;
+    height: auto;
+}
+
+.Emojis{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #828485;
+}
